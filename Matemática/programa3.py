@@ -1,0 +1,6 @@
+A = input("\nInsira os elementos para o conjunto A separados por espaço: ")
+Ca = set(A.split())
+B = input("Insira os elementos para o conjunto B separados por espaço: ")
+Cb = set(B.split())
+diferenca_a_b = Ca.difference(Cb)
+print(f"\nDiferença A - B: {diferenca_a_b}", "\n")
